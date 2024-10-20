@@ -1,5 +1,6 @@
 @import url("https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css");
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -27,6 +28,29 @@
 @layer components {
   .container {
     @apply mx-auto max-w-[1240px];
+  }
+}
+
+.cartsContainer {
+  border: 0.1rem solid var(--primary-accent);
+  &--checking {
+    input[type="checkbox"] {
+      accent-color: var(--primary);
+      width: 20px;
+      height: 20px;
+    }
+    p {
+      color: var(--dark-secondary);
+    }
+  }
+  &--delivery {
+    p {
+      color: var(--light-secondary);
+    }
+    span {
+      color: var(--primary);
+      border-color: var(--primary);
+    }
   }
 }
 

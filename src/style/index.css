@@ -25,6 +25,25 @@
     @apply mx-auto max-w-[1240px];
   }
 }
+.cartsContainer {
+  border: 0.1rem solid var(--primary-accent);
+}
+.cartsContainer--checking input[type=checkbox] {
+  accent-color: var(--primary);
+  width: 20px;
+  height: 20px;
+}
+.cartsContainer--checking p {
+  color: var(--dark-secondary);
+}
+.cartsContainer--delivery p {
+  color: var(--light-secondary);
+}
+.cartsContainer--delivery span {
+  color: var(--primary);
+  border-color: var(--primary);
+}
+
 body {
   font-family: var(--inter);
 }
