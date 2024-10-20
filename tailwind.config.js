@@ -18,7 +18,8 @@ module.exports = {
         'gray': 'var(--gray)',
       },
       fontFamily: {
-        'inter': ['Inter', 'sans-serif']
+        'inter': ['Inter', 'sans-serif'],
+        'roboto': ['Roboto', 'sans-serif'],
       }
     },
   },
