@@ -1,17 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 :root {
-  --primary: #7000FF;
-  --secondary: #FFFF00;
-  --primary-accent: #E5E5FF;
-  --light: #FFFFFF;
-  --light-secondary: #7E818C;
-  --dark: #1F2026;
-  --dark-secondary: #4D4F59;
-  --border: rgba(54, 55, 64, 0.20);
-  --product-bg: rgba(54, 55, 64, 0.10);
-  --violet: #2F006B;
-  --pink: #FF3090;
-  --gray: #E6E8ED;
+  --primary: #7000ff;
+  --secondary: #ffff00;
+  --primary-accent: #e5e5ff;
+  --light: #ffffff;
+  --light-secondary: #7e818c;
+  --dark: #1f2026;
+  --dark-secondary: #4d4f59;
+  --border: rgba(54, 55, 64, 0.2);
+  --product-bg: rgba(54, 55, 64, 0.1);
+  --violet: #2f006b;
+  --pink: #ff3090;
+  --gray: #e6e8ed;
+  --inter: "Inter", sans-serif;
+}
+
+@layer components {
+  .container {
+    @apply mx-auto max-w-[1240px];
+  }
+}
+body {
+  font-family: var(--inter);
+}
+
+.wishlit__empty--info button,
+.cart__empty--info button {
+  color: var(--light);
+  background-color: var(--primary);
+}
+
+.cart__main--productsText {
+  color: var(--light-secondary);
 }/*# sourceMappingURL=index.css.map */

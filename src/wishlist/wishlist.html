@@ -4,10 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/output.css">
     <title>Wishlist</title>
+    <script defer src="./wishlist.js"></script>
 </head>
 
-<body>
+<body class="font-Inter">
+    <div class="wishlist w-full container flex items-center justify-center min-h-96">
+        <div class="wishlist__empty flex items-center justify-center flex-col text-center">
+            <img src="../assets/wishlist/wishlist-icon.svg" alt="wishlist empty img">
+            <div class="wishlit__empty--info mt-6 grid gap-4 place-items-center">
+                <h3 class="text-[1.375rem] font-semibold leading-6">Sizga yoqqanini qoʻshing</h3>
+                <p class="font-normal text-[.8rem]">Mahsulotdagi ♡ belgisini bosing. Akkauntga kiring va barcha
+                    saralanganlar
+                    saqlanib qoladi</p>
+                <button
+                    class="font-[.875rem] py-[.66rem] px-[.875rem] rounded-md w-fit hover:opacity-85 duration-200">Akkauntga
+                    kirish</button>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
