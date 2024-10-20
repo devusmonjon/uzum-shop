@@ -1,3 +1,5 @@
+@import url("https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -20,4 +22,34 @@
   .container {
     @apply mx-auto max-w-[1240px];
   }
+  .section-title {
+    @apply font-inter text-[28px] font-bold flex items-center mb-[20px] text-dark;
+  }
+  .products__list {
+    @apply grid grid-cols-5 gap-[20px];
+  }
+  .swiper {
+    @apply select-none;
+  }
+}
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  display: none;
+}
+
+.swiper-slide {
+  gap: 3;
+}
+
+.swiper-pagination-bullet {
+  width: 6px;
+  height: 6px;
+  background-color: rgba(255, 255, 255, 0.5);
+  opacity: 0.5;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: rgba(255, 255, 255, 0.9);
+  opacity: 0.5;
 }/*# sourceMappingURL=index.css.map */
