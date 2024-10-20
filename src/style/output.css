@@ -1,3 +1,5 @@
+@import url("https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css");
+
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 *, ::before, ::after{
@@ -604,6 +606,10 @@ video {
   margin-top: 2rem;
 }
 
+.mt-\[50px\]{
+  margin-top: 50px;
+}
+
 .flex{
   display: flex;
 }
@@ -616,8 +622,16 @@ video {
   display: none;
 }
 
+.h-\[40px\]{
+  height: 40px;
+}
+
 .min-h-96{
   min-height: 24rem;
+}
+
+.w-\[40px\]{
+  width: 40px;
 }
 
 .w-fit{
@@ -653,8 +667,36 @@ video {
   gap: 1rem;
 }
 
+.overflow-hidden{
+  overflow: hidden;
+}
+
+.rounded-\[12px\]{
+  border-radius: 12px;
+}
+
+.rounded-\[20px\]{
+  border-radius: 20px;
+}
+
 .rounded-md{
   border-radius: 0.375rem;
+}
+
+.border{
+  border-width: 1px;
+}
+
+.border-\[rgba\(54\2c 55\2c 64\2c 0\.25\)\]{
+  border-color: rgba(54,55,64,0.25);
+}
+
+.bg-white\/70{
+  background-color: rgb(255 255 255 / 0.7);
+}
+
+.p-\[8px\]{
+  padding: 8px;
 }
 
 .px-\[\.875rem\]{
@@ -669,10 +711,6 @@ video {
 
 .text-center{
   text-align: center;
-}
-
-.font-Inter{
-  font-family: "Inter", sans-serif;
 }
 
 .font-\[\.875rem\]{
@@ -712,8 +750,16 @@ video {
   text-decoration-line: underline;
 }
 
+.opacity-50{
+  opacity: 0.5;
+}
+
 .duration-200{
   transition-duration: 200ms;
+}
+
+.duration-300{
+  transition-duration: 300ms;
 }
 
 :root {
@@ -744,6 +790,60 @@ body {
 
 .cart__main--productsText {
   color: var(--light-secondary);
+}
+
+.container{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1240px;
+}
+
+.section-title{
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  font-family: Inter, sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--dark);
+}
+
+.products__list{
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.swiper{
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  display: none;
+}
+
+.swiper-slide {
+  gap: 3;
+}
+
+.swiper-pagination-bullet {
+  width: 6px;
+  height: 6px;
+  background-color: rgba(255, 255, 255, 0.5);
+  opacity: 0.5;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: rgba(255, 255, 255, 0.9);
+  opacity: 0.5;
+}
+
+.hover\:opacity-100:hover{
+  opacity: 1;
 }
 
 .hover\:opacity-85:hover{
