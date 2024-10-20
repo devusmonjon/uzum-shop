@@ -14,4 +14,10 @@
   --violet: #2F006B;
   --pink: #FF3090;
   --gray: #E6E8ED;
+}
+
+@layer components {
+  .container {
+    @apply mx-auto max-w-[1240px];
+  }
 }/*# sourceMappingURL=index.css.map */
