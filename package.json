@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "watch": "npx tailwindcss -i ./src/style/index.css -o ./src/style/output.css --watch"
+    "watch": "npx tailwindcss -i ./src/style/index.css -o ./src/style/output.css --watch",
+    "format": "npx prettier --write ./src/**/*.{html,js}"
   },
   "devDependencies": {
     "tailwindcss": "^3.4.14"

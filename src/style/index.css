@@ -28,6 +28,18 @@
   .products__list {
     @apply grid grid-cols-5 gap-[20px];
   }
+  .products__list .product__item-img {
+    @apply relative;
+  }
+  .products__list .product__item-img .product-wrapper {
+    @apply h-full bg-product-bg rounded-[12px] absolute left-0 top-0 w-full;
+  }
+  .products__list .product__tags {
+    @apply absolute bottom-1 left-1;
+  }
+  .products__list .product__tags-item {
+    @apply px-[6px] py-[2px] rounded-[12px];
+  }
   .swiper {
     @apply select-none;
   }

@@ -26,8 +26,26 @@
         @apply font-inter text-[28px] font-bold flex items-center mb-[20px] text-dark;
     }
     // products
-    .products__list {
-        @apply grid grid-cols-5 gap-[20px];
+    .products {
+        &__list {
+            @apply grid grid-cols-5 gap-[20px];
+            .product {
+                &__item {
+                    &-img {
+                        @apply relative;
+                        .product-wrapper {
+                            @apply h-full bg-product-bg rounded-[12px] absolute left-0 top-0 w-full;
+                        }
+                    }
+                }
+                &__tags {
+                    @apply absolute bottom-1 left-1;
+                    &-item {
+                        @apply px-[6px] py-[2px] rounded-[12px];
+                    }
+                }
+            }
+        }
     }
     // swiper
     .swiper {
