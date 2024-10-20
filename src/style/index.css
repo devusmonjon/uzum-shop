@@ -57,6 +57,26 @@ input[type=checkbox] {
 .cartsContainer .cart__item .counter {
   border-color: var(--light-secondary);
 }
+.cartsContainer .cart__item .price {
+  margin-top: 0.2rem;
+}
+.cartsContainer .cart__item .price p {
+  color: var(--light-secondary);
+}
+
+.cart__main {
+  gap: 1rem;
+}
+.cart__main .cart__main--price {
+  border: 0.1rem solid #efeffc;
+  min-width: 360px;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.cart__main .delivery-message {
+  color: var(--primary);
+  border-color: var(--primary);
+}
 
 body {
   font-family: var(--inter);

@@ -53,7 +53,7 @@ async function fetchAPI(api) {
                           <i class="fa-solid fa-plus"></i>
                         </button>
                       </div>
-                      <div className="price">
+                      <div class="price">
                         <h3 class="text-xl">${product.price} so'm</h3>
                         <p class="text-end text-sm line-through">${product.old_price} so'm</p>
                       </div>
