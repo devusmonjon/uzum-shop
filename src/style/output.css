@@ -598,6 +598,7 @@ video {
   max-width: 1240px;
 }
 
+<<<<<<< HEAD
 .section-title{
   margin-bottom: 20px;
   display: flex;
@@ -606,6 +607,233 @@ video {
   font-size: 28px;
   font-weight: 700;
   color: var(--dark);
+=======
+.ml-\[32px\] {
+  margin-left: 32px;
+}
+
+.mr-\[24px\] {
+  margin-right: 24px;
+}
+
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.h-\[40px\] {
+  height: 40px;
+}
+
+.h-\[32px\] {
+  height: 32px;
+}
+
+.w-\[120px\] {
+  width: 120px;
+}
+
+.w-\[527\.94px\] {
+  width: 527.94px;
+}
+
+.w-\[79\.19px\] {
+  width: 79.19px;
+}
+
+.w-\[215px\] {
+  width: 215px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.grid-cols-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.gap-24 {
+  gap: 6rem;
+}
+
+.gap-\[10px\] {
+  gap: 10px;
+}
+
+.gap-\[11px\] {
+  gap: 11px;
+}
+
+.gap-\[16px\] {
+  gap: 16px;
+}
+
+.gap-\[1px\] {
+  gap: 1px;
+}
+
+.gap-\[21\.4px\] {
+  gap: 21.4px;
+}
+
+.gap-\[26px\] {
+  gap: 26px;
+}
+
+.gap-\[28px\] {
+  gap: 28px;
+}
+
+.gap-\[4px\] {
+  gap: 4px;
+}
+
+.gap-\[7px\] {
+  gap: 7px;
+}
+
+.gap-\[9px\] {
+  gap: 9px;
+}
+
+.gap-\[20\.4px\] {
+  gap: 20.4px;
+}
+
+.gap-\[2px\] {
+  gap: 2px;
+}
+
+.rounded-\[4px\] {
+  border-radius: 4px;
+}
+
+.rounded-l-\[4px\] {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.rounded-r-\[4px\] {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-l-0 {
+  border-left-width: 0px;
+}
+
+.border-r-0 {
+  border-right-width: 0px;
+}
+
+.border-border {
+  border-color: rgba(54, 55, 64, 0.20);
+}
+
+.bg-\[\#EDEFF2\;\] {
+  background-color: #EDEFF2;;
+}
+
+.bg-\[\#F0F2F5\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(240 242 245 / var(--tw-bg-opacity));
+}
+
+.bg-primary-accent {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 229 255 / var(--tw-bg-opacity));
+}
+
+.object-contain {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.p-\[17px_0_11px_0\] {
+  padding: 17px 0 11px 0;
+}
+
+.px-\[8px\] {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.py-\[9px\] {
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+
+.pl-\[17px\] {
+  padding-left: 17px;
+}
+
+.pt-\[2\.5px\] {
+  padding-top: 2.5px;
+}
+
+.pt-\[25px\] {
+  padding-top: 25px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-\[14px\] {
+  font-size: 14px;
+}
+
+.font-\[500\] {
+  font-weight: 500;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.text-dark {
+  --tw-text-opacity: 1;
+  color: rgb(31 32 38 / var(--tw-text-opacity));
+}
+
+.text-dark-secondary {
+  --tw-text-opacity: 1;
+  color: rgb(77 79 89 / var(--tw-text-opacity));
+}
+
+.text-primary {
+  --tw-text-opacity: 1;
+  color: rgb(112 0 255 / var(--tw-text-opacity));
+}
+
+.text-\[\#4D4F59\] {
+  --tw-text-opacity: 1;
+  color: rgb(77 79 89 / var(--tw-text-opacity));
+>>>>>>> origin/shomurod
 }
 
 .products__list{
@@ -711,6 +939,11 @@ video {
 
 .duration-300{
   transition-duration: 300ms;
+}
+
+.outline-none {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
 }
 
 :root {
