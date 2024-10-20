@@ -730,10 +730,6 @@ video {
   font-size: 1.375rem;
 }
 
-.text-\[50px\]{
-  font-size: 50px;
-}
-
 .font-normal{
   font-weight: 400;
 }
@@ -744,10 +740,6 @@ video {
 
 .leading-6{
   line-height: 1.5rem;
-}
-
-.underline{
-  text-decoration-line: underline;
 }
 
 .opacity-50{
