@@ -1,23 +1,40 @@
 {
-    "posts": [{
-        "id": "1",
-        "image": "./assets/images/products/product-1.png",
-        "title": "Nasiya",
-        "description": "",
-        "old_price": 0,
-        "price": 0,
-        "category": "Elektronika",
-        "rating": 5,
-        "comments_count": 0,
-        "seller": ""
-    }],
-    "categories": [
-        "Elektronika",
-        "Maishiy texnika",
-        "Kiyim",
-        "Poyabzallar",
-        "Aksessuarlar",
-        "Goʻzallik va parvarish",
-        "Salomatlik"
-    ]
+  "posts": [
+    {
+      "id": "1",
+      "image": "./assets/images/products/product-1.png",
+      "title": "Nasiya",
+      "description": "",
+      "old_price": 100,
+      "price": 200,
+      "category": "Elektronika",
+      "rating": 5,
+      "comments_count": 0,
+      "seller": "Someone"
+    },
+    {
+      "id": "2",
+      "image": "./assets/images/products/product-1.png",
+      "title": "Nasiya",
+      "description": "",
+      "old_price": 100,
+      "price": 120,
+      "category": "Elektronika",
+      "rating": 5,
+      "comments_count": 0,
+      "seller": "Najot Ta'lim"
+    },
+    {
+      "id": "3",
+      "image": "./assets/images/products/product-1.png",
+      "title": "Nasiya",
+      "description": "",
+      "old_price": 200,
+      "price": 240,
+      "category": "Maishiy texnika",
+      "rating": 5,
+      "comments_count": 0,
+      "seller": ""
+    }
+  ]
 }

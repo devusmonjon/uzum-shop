@@ -641,8 +641,8 @@ video {
   margin-right: 24px;
 }
 
-.mt-3{
-  margin-top: 0.75rem;
+.mt-10{
+  margin-top: 2.5rem;
 }
 
 .mt-4{
@@ -671,10 +671,6 @@ video {
 
 .mt-\[50px\]{
   margin-top: 50px;
-}
-
-.mt-10{
-  margin-top: 2.5rem;
 }
 
 .flex{
@@ -707,10 +703,6 @@ video {
 
 .min-h-96{
   min-height: 24rem;
-}
-
-.min-h-\[28rem\]{
-  min-height: 28rem;
 }
 
 .min-h-\[29\.5rem\]{
@@ -810,8 +802,8 @@ video {
   gap: 1rem;
 }
 
-.gap-7{
-  gap: 1.75rem;
+.gap-6{
+  gap: 1.5rem;
 }
 
 .gap-\[10px\]{
@@ -1062,6 +1054,10 @@ video {
   text-align: center;
 }
 
+.text-end{
+  text-align: end;
+}
+
 .font-\[\.875rem\]{
   font-family: .875rem;
 }
@@ -1185,6 +1181,10 @@ video {
 
 .underline{
   text-decoration-line: underline;
+}
+
+.line-through{
+  text-decoration-line: line-through;
 }
 
 .opacity-50{
