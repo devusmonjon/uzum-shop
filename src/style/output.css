@@ -673,6 +673,10 @@ video {
   margin-top: 50px;
 }
 
+.mt-10{
+  margin-top: 2.5rem;
+}
+
 .flex{
   display: flex;
 }
@@ -703,6 +707,14 @@ video {
 
 .min-h-96{
   min-height: 24rem;
+}
+
+.min-h-\[28rem\]{
+  min-height: 28rem;
+}
+
+.min-h-\[29\.5rem\]{
+  min-height: 29.5rem;
 }
 
 .w-10{
