@@ -1,9 +1,13 @@
 {
-  "scripts": {
-    "watch": "npx tailwindcss -i ./src/style/index.css -o ./src/style/output.css --watch",
-    "format": "npx prettier --write ./src/**/*.{html,js}"
-  },
-  "devDependencies": {
-    "tailwindcss": "^3.4.14"
-  }
+    "scripts": {
+        "watch": "npx tailwindcss -i ./src/style/index.css -o ./src/style/output.css --watch",
+        "format": "npx prettier --write ./src/**/*.{html,js}",
+        "db": "json-server --watch ./data/db.json --port 3000"
+    },
+    "devDependencies": {
+        "tailwindcss": "^3.4.14"
+    },
+    "dependencies": {
+        "json-server": "^1.0.0-beta.3"
+    }
 }
